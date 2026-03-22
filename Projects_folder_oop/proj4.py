@@ -2,6 +2,7 @@ class Task:
     def __init__(self, title):
         self.title = title
         self.completed = False
+        
 
     def mark_done(self):
         self.completed = True
@@ -34,6 +35,7 @@ class TaskManager:
             print("Task completed!")
         else:
             print("Invalid task number.")
+    
 
 
 # -------- CLI Interface --------
